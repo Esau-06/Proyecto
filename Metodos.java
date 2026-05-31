@@ -1,65 +1,38 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
-import java.util.Stack;
-
 public class Metodos {
 
-    public LinkedList RegistrarPrestamoIngenieria(LinkedList vector_ingenieros, LinkedList vector_portatil, Queue cola_solicitudes, Scanner sc) {
-
-        System.out.println("Registrar prestamo estudiantes de ingenieria");
-
-        return vector_ingenieros;
+    public void RegistrarPrestamoIngenieria() {
+        System.out.println("Registrar prestamo ingenieria");
     }
 
-    public LinkedList RegistrarPrestamoDiseno(LinkedList vector_disenadores, LinkedList vector_tableta, Queue cola_solicitudes, Scanner sc) {
-
-        System.out.println("Registrar prestamo estudiantes de diseno");
-
-        return vector_disenadores;
+    public void RegistrarPrestamoDiseno() {
+        System.out.println("Registrar prestamo diseno");
     }
 
-    public LinkedList ModificarPrestamoIngenieria(LinkedList vector_ingenieros, Scanner sc) {
-
-        System.out.println("Modificar prestamo estudiantes de ingenieria");
-
-        return vector_ingenieros;
+    public void ModificarPrestamoIngenieria() {
+        System.out.println("Modificar prestamo ingenieria");
     }
 
-    public LinkedList ModificarPrestamoDiseno(LinkedList vector_disenadores, Scanner sc) {
-
-        System.out.println("Modificar prestamo estudiantes de diseno");
-
-        return vector_disenadores;
+    public void ModificarPrestamoDiseno() {
+        System.out.println("Modificar prestamo diseno");
     }
 
-    public LinkedList DevolverEquipoIngenieria(LinkedList vector_ingenieros, LinkedList vector_portatil, Stack pila_devoluciones, Scanner sc) {
-
-        System.out.println("Devolucion de equipo estudiantes de ingenieria");
-
-        return vector_ingenieros;
+    public void DevolverEquipoIngenieria() {
+        System.out.println("Devolucion de equipo ingenieria");
     }
 
-    public LinkedList DevolverEquipoDiseno(LinkedList vector_disenadores, LinkedList vector_tableta, Stack pila_devoluciones, Scanner sc) {
-
-        System.out.println("Devolucion de equipo estudiantes de diseno");
-
-        return vector_disenadores;
+    public void DevolverEquipoDiseno() {
+        System.out.println("Devolucion de equipo diseno");
     }
 
-    public void BuscarEquipoIngenieria(LinkedList vector_ingenieros, Scanner sc) {
-
-        System.out.println("Buscar equipo estudiantes de ingenieria");
+    public void BuscarEquipoIngenieria() {
+        System.out.println("Buscar equipo ingenieria");
     }
 
-    public void BuscarEquipoDiseno(LinkedList vector_disenadores, Scanner sc) {
-
-        System.out.println("Buscar equipo estudiantes de diseno");
+    public void BuscarEquipoDiseno() {
+        System.out.println("Buscar equipo diseno");
     }
 
-    public void ImprimirInventarioTotal(LinkedList vector_ingenieros, LinkedList vector_disenadores, LinkedList vector_portatil, LinkedList vector_tableta) {
-
+    public void ImprimirInventarioTotal() {
         System.out.println("Imprimir inventario total");
     }
 }
-
